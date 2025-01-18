@@ -3,6 +3,13 @@ select, input {
 }
 
 button {
-    background-color: bisque;
-    color: #000;
+    color: #fff;
+}
+
+#btnAdd {
+    background-color: greenyellow;
+}
+
+#btnDelete {
+    background-color: red;
 }
