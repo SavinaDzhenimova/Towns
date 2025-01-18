@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$('#btnDelete').click(deleteTown);
     $('#btnAdd').click(addTown);
+    //TODO: add some shuffle functionality
 });
 
 function addTown() {
