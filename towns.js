@@ -29,8 +29,8 @@ function shuffleTowns() {
 }
 
 function deleteTown() {
-    let townName = $('#townName').val();
-    $('#townName').val('');
+    let townName = $('#townNameForDelete').val();
+    $('#townNameForDelete').val('');
     let removed = false;
     for (let option of $('#towns option')) {
         if (option.textContent == townName) {
